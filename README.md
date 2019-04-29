@@ -8,11 +8,16 @@ Update for compiling against IDA SDK 6.8
 This will not run against earlier versions of ida.  I removed deprecated functions calls and replaced them with up to date alternatives, so that this plugin should continue to compile and run for a long time
 
 <br>
-Added functions:
+Added net new functions:
 
 	ASAP file import
 	Decode interrupt Vector Table
 	Added more functions definitions
-	Removed Vauxhall Astra specific code
+	
 
 This plugin will attempt to remove a lot of manual work from a raw binary and then try and disassemble it into more meaningful code.
+
+Removed:
+
+	Removed Vauxhall Astra specific code
+	
